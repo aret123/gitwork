@@ -16,5 +16,9 @@ public class Test001 {
         assertEquals("Hello JUnit 5", "www");
     }
 
-
+    @DisplayName("Test3")
+    @Test
+    void test3() {
+        assertEquals("Hello JUnit 5", "ddd");
+    }
 }
